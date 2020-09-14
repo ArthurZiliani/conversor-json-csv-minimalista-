@@ -11,7 +11,6 @@ var input_csv = document.getElementById("csv");
 
 input_csv.innerHTML = '';
 
-
 var dados = JSON.parse(input_json.value);
 console.log(JSON.stringify(dados[0]));
 
@@ -48,14 +47,11 @@ for(item of projeto_csv){
 }
 
 
-
-
-
 function limparTexto(){
 
     document.getElementById("json").value = '';
     document.getElementById("csv").value = '';
-    alert("tudo limpo");
+    alert("limpo com sucesso");
     window.location.reload()
 
 
