@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Json > CSV</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+      <div id="app" class="container">
+        <div class="box-json">
+            
+            <h1>Insira a sintaxe em json para ser convertido</h1>
+            <textarea id="json">[{"Id":1,"UserName":"Arthur Ziliani"},
+            {"Id":2,"UserName":"Gabiih Dias"},
+                {"Id":1,"UserName":"Heitor Ziliani"}]</textarea>
+            <button id="btn" class="btn-converter" onclick="conversor()">Converter</button>          
+            <button id="btn-limpar" class="btn-limpar">Limpar</button>       
+            
+
+
+        </div>
+        <div class="box-csv">
+            <h1>Sintaxe em CSV</h1>
+            <textarea id="csv"></textarea>
+            </div>
+
+      </div>  
+
+
+
+
+</body>
+<script src="conversor.js" type=""></script>
+</html>
