@@ -14,7 +14,7 @@ box-sizing: border-box;
 body{
 
 background-color: #100e17;
-
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container{
@@ -36,7 +36,7 @@ text-align: center;
 .box-csv{
 
 text-align: center;
-
+margin-top: 10px;
 }
 
 
